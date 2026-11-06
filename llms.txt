@@ -1,0 +1,14 @@
+# Job Board Scraper
+
+> Collect the open roles on a company's own career site and detect what opened or closed since the last run.
+
+- Actor: data_foundry/job-board-scraper
+- URL: https://apify.com/data_foundry/job-board-scraper
+- Publisher: Data Foundry (https://apify.com/data_foundry)
+- Category: Jobs
+- Pricing: $10 per 1,000 companies scanned; pay per event, no subscription, failures not billed
+- Input: company slugs
+- Output: open roles plus a per-company hiring signal
+- Run: apify call data_foundry/job-board-scraper
+- API: POST https://api.apify.com/v2/acts/data_foundry~job-board-scraper/runs
+- More actors: https://apify.com/data_foundry
